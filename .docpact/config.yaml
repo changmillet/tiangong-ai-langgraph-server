@@ -7,7 +7,7 @@ catalog:
   repos:
     - id: ai-langgraph-server
       path: .
-      canonicalRepo: linancn/tiangong-ai-langgraph-server
+      canonicalRepo: tiangong-ai/langgraph-server
       entryDoc: AGENTS.md
       workflowDocs:
         - docs/agents/repo-validation.md
