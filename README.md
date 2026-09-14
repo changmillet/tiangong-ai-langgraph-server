@@ -7,7 +7,6 @@ This project was retired from active Tiangong AI workspace development on
 
 - Organization: [tiangong-ai](https://github.com/tiangong-ai)
 - Final repository: [tiangong-ai/langgraph-server](https://github.com/tiangong-ai/langgraph-server)
-- Active workspace: [tiangong-ai/workspace-suite](https://github.com/tiangong-ai/workspace-suite)
 
 The repository is being removed from the workspace's submodules and active
 delivery catalog, then archived after that integration completes. No further
