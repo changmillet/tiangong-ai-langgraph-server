@@ -25,7 +25,7 @@ checkPaths:
   - scripts/docpact-gate.sh
   - scripts/install-git-hooks.sh
 lastReviewedAt: 2026-09-14
-lastReviewedCommit: 5989f93869594418854c94c512c95f1523cd8dc7
+lastReviewedCommit: 342c6e59efa9af46e7fc69a9824321bf66e72f1c
 related:
   - .docpact/config.yaml
   - docs/agents/repo-validation.md
@@ -34,6 +34,13 @@ related:
 # ai-langgraph-server AI Working Guide
 
 LangGraph server runtime, agent orchestration, gateway, and local development repository.
+
+This repository is retired from active workspace development as of 2026-09-14.
+Read the retirement notice in `README.md` before using historical instructions.
+The final source location is `tiangong-ai/langgraph-server`. Workspace detachment
+and GitHub archival preserve history; they do not authorize changes to the
+shared AI/LCA runtime, cloud resources, data, or credentials. Any future source
+reactivation requires a new explicit owner decision and delivery arrangement.
 
 ## Local Docpact Push Gate
 

@@ -1,5 +1,38 @@
 # TianGong AI LangGraph Server
 
+## Retirement notice / 项目归档说明
+
+This project was retired from active Tiangong AI workspace development on
+2026-09-14. Its source and GitHub history are retained for reference.
+
+- Organization: [tiangong-ai](https://github.com/tiangong-ai)
+- Final repository: [tiangong-ai/langgraph-server](https://github.com/tiangong-ai/langgraph-server)
+- Active workspace: [tiangong-ai/workspace-suite](https://github.com/tiangong-ai/workspace-suite)
+
+The repository is being removed from the workspace's submodules and active
+delivery catalog, then archived after that integration completes. No further
+feature development or routine maintenance is planned here. The installation
+and deployment instructions below are historical reference, not a maintained
+deployment recommendation. No replacement service is designated by this notice.
+
+Source retirement does not shut down an existing deployment. The recorded
+LangGraph runtime also serves LCA consumers, including `lca_ai_suggestion`;
+its host has carried LCA worker workloads. AWS resources, domains, certificates,
+LangSmith, containers, data and credentials require a separate operational
+handoff and remain unchanged by this source retirement.
+
+本项目于 2026-09-14 退出天工 AI workspace 的持续开发，保留源码与 GitHub
+历史供查阅。新组织为 [tiangong-ai](https://github.com/tiangong-ai)，本仓库的
+最终地址为 [tiangong-ai/langgraph-server](https://github.com/tiangong-ai/langgraph-server)。
+完成 workspace 子模块和交付目录移除后，本仓库归档，不再开展功能开发和日常维护。
+下方安装与部署说明仅作历史参考，本公告没有指定替代服务。
+
+源码归档不代表线上服务已停用。已有部署涉及 AI/LCA 共用运行环境及
+`lca_ai_suggestion`，宿主机还承载过 LCA worker。AWS、域名、证书、LangSmith、
+线上容器、数据和凭据保留现状，后续通过独立运维交接处理。
+
+## Historical documentation / 历史文档
+
 ## Install dependencies
 
 ```bash
