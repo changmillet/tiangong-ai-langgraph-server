@@ -1,7 +1,7 @@
 version: 1
 layout: repo
-lastReviewedAt: "2026-05-28"
-lastReviewedCommit: "de6d888d8738e7c99b8fd142a5a8c36ca2f67db8"
+lastReviewedAt: "2026-09-14"
+lastReviewedCommit: "342c6e59efa9af46e7fc69a9824321bf66e72f1c"
 
 catalog:
   repos:
@@ -11,7 +11,7 @@ catalog:
       entryDoc: AGENTS.md
       workflowDocs:
         - docs/agents/repo-validation.md
-      workspaceIntegrationRequired: true
+      workspaceIntegrationRequired: false
 
 ownership:
   domains:
@@ -133,6 +133,8 @@ rules:
     triggers:
       - path: AGENTS.md
         kind: doc-contract
+      - path: README.md
+        kind: retirement-and-entry-notice
       - path: .docpact/config.yaml
         kind: doc-ai-layer
       - path: docs/agents/repo-validation.md

@@ -19,13 +19,18 @@ checkPaths:
   - scripts/docpact-gate.sh
   - scripts/install-git-hooks.sh
 lastReviewedAt: 2026-09-14
-lastReviewedCommit: 5989f93869594418854c94c512c95f1523cd8dc7
+lastReviewedCommit: 342c6e59efa9af46e7fc69a9824321bf66e72f1c
 related:
   - ../../AGENTS.md
   - ../../.docpact/config.yaml
 ---
 
 # ai-langgraph-server Validation Guide
+
+The 2026-09-14 retirement changes documentation and governance only. Validate
+them with strict docpact config validation, explicit-diff lint and Git diff
+review. Do not start the historical Docker stack or run business requests to
+validate an archive notice. Live infrastructure retirement is a separate task.
 
 ## Local Docpact Push Gate
 
